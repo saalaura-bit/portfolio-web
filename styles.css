@@ -182,7 +182,8 @@ h2 {
 /* CONTACT */
 .contact { background: var(--white); color: var(--ink-80); }
 .contact h2 { color: var(--ink); border-bottom-color: var(--ink-10); }
-.contact p { color: var(--ink-50); font-size: 15.5px; margin-bottom: 22px; }
+.contact p { color: var(--ink-50); font-size: 15.5px; }
+.contact-info { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 22px; }
 .btn-icon { width: 14px; height: 14px; margin-right: 7px; vertical-align: -2px; color: var(--accent); }
 .citem.linkedin { background: #0a66c2; padding: 9px 11px; text-decoration: none; }
 .citem.linkedin svg { width: 16px; height: 16px; color: var(--white); display: block; }
@@ -193,7 +194,7 @@ h2 {
 .citem.blue { background: var(--accent); border-color: var(--accent); }
 .citem.blue svg { color: var(--white); }
 .citem.blue:hover { background: var(--accent-hover); border-color: var(--accent-hover); }
-.contact-row { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-top: 6px; }
+.contact-row { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
 .citem {
   display: inline-flex;
   align-items: center;
